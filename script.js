@@ -8,7 +8,7 @@ searchBtn.addEventListener('click', function () {
     } else {
         const key = '7069ae7a44eece97b3477a7e3669ede5'
 
-        const url = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${key}`
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${key}`
 
         fetch(url)
             .then(res => res.json())
